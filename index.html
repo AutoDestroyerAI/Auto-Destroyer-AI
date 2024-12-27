@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Destroyer AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Auto Destroyer AI</h1>
+            <div class="links">
+                <a href="https://twitter.com" target="_blank">
+                    <img src="icons/twitter.png" alt="Twitter" class="icon">
+                </a>
+                <a href="https://github.com" target="_blank">
+                    <img src="icons/github.png" alt="GitHub" class="icon">
+                </a>
+                <a href="https://telegram.org" target="_blank">
+                    <img src="icons/telegram.png" alt="Telegram" class="icon">
+                </a>
+            </div>
+        </header>
+        <main>
+            <div class="left-panel">
+                <h3>Received Gifts:</h3>
+                <ul id="gift-list">
+                    <li>@sample_user_1</li>
+                    <li>@example_user_2</li>
+                </ul>
+            </div>
+            <div class="right-panel">
+                <p><strong>CA:</strong> 0x1234...5678</p>
+                <p>Enter your user name:</p>
+                <input type="text" id="username" placeholder="Enter your Twitter username">
+                <button id="send-gift"></button>
+                <div id="gift-image" class="hidden">
+                    <img src="" alt="Gift" id="gift">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
