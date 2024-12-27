@@ -1,4 +1,4 @@
-# Neural Snake AI: A Blockchain-Driven Autonomous Learning System
+# Auto Destroyer AI: A Blockchain-Driven Autonomous Learning System
 
 ## Table of Contents
 - [1. Introduction](#1-introduction)
