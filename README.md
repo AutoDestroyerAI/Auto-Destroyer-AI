@@ -67,7 +67,7 @@ For detailed technical documentation, visit our [GitBook](https://docs.AutoDestr
 
 ## Social Links
 
-- Twitter: [@AutoDestroyerAIevo](https://x.com/AutoDestroyerai)
+- Twitter: https://x.com/AutoDestroyerai
 
 ## License
 
