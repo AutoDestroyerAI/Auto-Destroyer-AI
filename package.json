@@ -1,7 +1,7 @@
 {
   "name": "Auto-Destroyer",
   "version": "1.0.0",
-  "description": "Neural Snake AI with Token Monitor",
+  "description": "Auto Destroyer AI with Token Monitor",
   "main": "server.js",
   "dependencies": {
     "axios": "^1.7.9",
