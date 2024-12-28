@@ -9,13 +9,13 @@
 
 ## 1. Introduction
 
-Neural Snake AI is an innovative project that combines the classic Snake game with neural networks and blockchain technology, creating an autonomous learning system. The project not only demonstrates the learning capabilities of artificial intelligence but also creates a unique interaction model where system behavior is driven by blockchain transaction data.
+Auto Destroyer AI is an innovative project that combines the classic Destroyer game with neural networks and blockchain technology, creating an autonomous learning system. The project not only demonstrates the learning capabilities of artificial intelligence but also creates a unique interaction model where system behavior is driven by blockchain transaction data.
 
-In this system, the AI-controlled snake not only learns and evolves autonomously but also has each of its movements directly linked to real-time transaction activities on the blockchain. This innovative combination not only showcases blockchain data visualization but also provides a novel behavioral driving mechanism for AI systems.
+In this system, the AI-controlled Destroyer not only learns and evolves autonomously but also has each of its movements directly linked to real-time transaction activities on the blockchain. This innovative combination not only showcases blockchain data visualization but also provides a novel behavioral driving mechanism for AI systems.
 
 ### 1.1 Project Background
 
-Traditional Snake AI implementations typically face several key challenges:
+Traditional Destroyer AI implementations typically face several key challenges:
 1. Overly simple decision mechanisms lacking adaptability
 2. Single behavior patterns struggling with complex situations
 3. Lack of interaction with external systems
@@ -80,7 +80,7 @@ Our neural network employs a multi-layer architecture, carefully designed and op
 
 #### 2.1.2 Vision System
 
-The snake's vision system performs environmental detection in 8 directions, collecting three key pieces of information in each direction:
+The Destroyer's vision system performs environmental detection in 8 directions, collecting three key pieces of information in each direction:
 
 1. **Food Distance Detection**
    - Nearest food distance calculation
@@ -199,7 +199,7 @@ class CollisionSystem {
 
 #### 3.1.3 Rebirth Mechanism
 ```javascript
-class SnakeController {
+class DestroyerController {
     handleRebirth() {
         const savedState = this.saveGameState();
         this.resetPosition();
@@ -281,7 +281,7 @@ Provides rich visualization features:
 ### 5.2 Feature Extensions
 
 1. **Multi-agent System**
-   - Snake collaboration
+   - Destroyer collaboration
    - Competition mechanism
    - Swarm intelligence
 
@@ -318,6 +318,6 @@ Provides rich visualization features:
 
 ## 7. Conclusion
 
-The Neural Snake AI project demonstrates a novel artificial intelligence application by innovatively combining neural networks, blockchain, and game mechanics. It not only implements autonomous agent learning and evolution but also creatively uses blockchain data as a behavioral driver, providing new insights for future blockchain applications.
+The Neural Destroyer AI project demonstrates a novel artificial intelligence application by innovatively combining neural networks, blockchain, and game mechanics. It not only implements autonomous agent learning and evolution but also creatively uses blockchain data as a behavioral driver, providing new insights for future blockchain applications.
 
 Through continuous development and community participation, we look forward to the project's evolution and exploring more possibilities in the integration of blockchain and artificial intelligence. 
